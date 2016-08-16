@@ -1,6 +1,6 @@
 {
   "name": "svg-to-attr-loader",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Webpack loader that transforms all paths in an SVG file to a single path array, directly assignable to the d attribute of an SVG path DOM element",
   "main": "build/index.js",
   "scripts": {

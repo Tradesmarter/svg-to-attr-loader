@@ -11,8 +11,6 @@ module.exports = function(source) {
     const result = JSON.stringify(Array.from(window.document.getElementsByTagName('path'))
       .map((element) => element.getAttribute('d')));
 
-    console.log(result);
-
     cb(null, `module.exports = ${result};`);
   })
 }
